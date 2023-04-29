@@ -81,7 +81,7 @@ public class ARXMLContainerSorter {
         } catch (ParserConfigurationException | TransformerException | IOException | EmptyAutosarFileException e) {
             e.printStackTrace();
         } catch (SAXException e) {
-            System.out.println("Exception was called ,Error: Failed to parse input file " + inputFilename);
+            System.out.println("EmptyAutosarFileException:Due to failure to parse input file " + inputFilename);
             e.printStackTrace();
         }
     }
